@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 TIMEOUT=20
 PAUSE=5
 
@@ -96,5 +97,5 @@ declare instance_id
 declare instance_region
 declare instance_environment
 declare eips
-
+#https://heed.io/2019/05/24/aws-autoscaling-and-the-automatic-assignment-of-elastic-ips/
 main "$@"
